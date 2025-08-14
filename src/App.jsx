@@ -2,6 +2,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
+import FirstVideo from "./sections/FirstVideo";
 gsap.registerPlugin(ScrollTrigger);
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <div>
         <Navbar />
         <Hero />
+        <FirstVideo/>
       </div>
     </main>
   );
